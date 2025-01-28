@@ -1,0 +1,30 @@
+{
+  "name": "vn-voice-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaCuaBan77/vn-voice-control.git"
+  },
+  "keywords": [
+    "voice-control",
+    "AI"
+  ],
+  "author": "Long Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaCuaBan77/vn-voice-control/issues"
+  },
+  "homepage": "https://github.com/BaCuaBan77/vn-voice-control#readme",
+  "dependencies": {
+    "@picovoice/porcupine-node": "^3.0.5",
+    "@picovoice/pvrecorder-node": "^1.2.5",
+    "dotenv": "^16.4.7",
+    "express": "4.21.2",
+    "mic": "^2.1.2"
+  }
+}
